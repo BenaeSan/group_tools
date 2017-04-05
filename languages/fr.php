@@ -4,8 +4,8 @@ return array(
 
 	// general
 	'group_tools:add_users' => "Ajouter ces utilisateurs",
-	'group_tools:delete_selected' => "Supprimer la selection",
-	'group_tools:clear_selection' => "Effecer la selection",
+	'group_tools:delete_selected' => "Supprimer la sélection",
+	'group_tools:clear_selection' => "Effacer la sélection",
 	'group_tools:all_members' => "Tous les membres",
 	'group_tools:explain' => "Explication",
 
@@ -23,26 +23,26 @@ return array(
 	'admin:administer_utilities:group_bulk_delete' => "Group bulk delete",
 	'admin:groups:admin_approval' => "Approbation nécessaire",
 
-	'admin:appearance:group_tool_presets' => "Group tool presets",
+	'admin:appearance:group_tool_presets' => "Préréglages Group Tool ",
 	
 	// plugin settings
-	'group_tools:settings:default_off' => "Oui, défaut off",
-	'group_tools:settings:default_on' => "Oui, défaut on",
+	'group_tools:settings:default_off' => "Oui, par défaut off",
+	'group_tools:settings:default_on' => "Oui, par défaut on",
 	'group_tools:settings:required' => "Oui, requit",
 	'group_tools:settings:admin_only' => "Admin seulement",
 
-	'group_tools:settings:edit:title' => "Édition des parametres de groupe",
-	'group_tools:settings:simple_access_tab' => "Selection d'accés au groupe simplifié",
-	'group_tools:settings:simple_access_tab:help' => "Remplacer les options d'access au groupe lors de la creation du groupe avec un choix simplifié entre 'Ouvert' et 'Fermé'",
+	'group_tools:settings:edit:title' => "Édition des paramètres de groupe",
+	'group_tools:settings:simple_access_tab' => "Sélection d'accès au groupe simplifié",
+	'group_tools:settings:simple_access_tab:help' => "Remplacer les options d'accès au groupe lors de la creation du groupe avec un choix simplifié entre 'Ouvert' et 'Fermé'",
 
 	'group_tools:settings:simple_create_form' => "Simple formulaire de création de groupe",
-	'group_tools:settings:simple_create_form:help' => "Autoriser la maniere dont sera afficher le formulaire 'Nouveau Groupe'",
+	'group_tools:settings:simple_create_form:help' => "Activer l'affichage du formulaire de création de 'Nouveau Groupe' simple",
 
-	'group_tools:settings:allow_hidden_groups:help' => "Qui peut créer un groupe caché. Ce parametrage surchargera celui du plugin group.",
+	'group_tools:settings:allow_hidden_groups:help' => "Qui peut créer un groupe caché. Ce paramétrage surchargera celui du plugin group.",
 
 	'group_tools:settings:invite:title' => "Option d'invitation de groupe",
 	'group_tools:settings:management:title' => "Options générales",
-	'group_tools:settings:default_access:title' => "Acces par défaut pour les groupes",
+	'group_tools:settings:default_access:title' => "Accès par défaut pour les groupes",
 
 	'group_tools:settings:admin_transfer' => "Autoriser le transfert de l'appartenance d'un groupe",
 	'group_tools:settings:admin_transfer:admin' => "Aux admins seuls",
@@ -51,9 +51,9 @@ return array(
 	'group_tools:settings:multiple_admin' => "Autoriser plusieurs animateurs de groupe",
 	'group_tools:settings:auto_suggest_groups' => "Auto suggèrent des groupes sur la page « suggérée » des groupes basés sur des informations de profil . Sera complété avec les groupes proposés prédéfinis . Mettre ce paramètre à «Non» ne montre que les groupes proposés prédéfinis ( s'il y en a ).",
 	
-	'group_tools:settings:notifications:title' => "Parametrage des notifications de groupe",
+	'group_tools:settings:notifications:title' => "Paramétrage des notifications de groupe",
 	'group_tools:settings:notifications:notification_toggle' => "Montrer une notification au moment de rejoindre un groupe",
-	'group_tools:settings:notifications:notification_toggle:description' => "Ceci montrera un message systeme où un utilisateur peut modifier ses préférences de notification, et ajouter un lien dans le courriel de notification vers les parametrages de notifications de groupe.",
+	'group_tools:settings:notifications:notification_toggle:description' => "Ceci montrera un message système où un utilisateur peut modifier ses préférences de notification, et ajouter un lien dans le courriel de notification vers les paramétrages de notifications de groupe.",
 	
 	'group_tools:settings:invite' => "Tous les membres du site peuvent être invités (Pas seulement les contacts)",
 	'group_tools:settings:invite_friends' => "Autoriser les amis à être invités",
@@ -65,24 +65,24 @@ return array(
 	'group_tools:settings:domain_based' => "Activer les groupes basés sur des domaines e-mail",
 	'group_tools:settings:domain_based:description' => "Les utilisateurs peuvent se joindre à un groupe en fonction de leur domaine e-mail. Lors de l'inscription , ils seront automatiquement inscrits à des groupes en fonction de leur domaine e-mail.",
 	'group_tools:settings:join_motivation' => "Rejoindre un groupe fermé peut demander une demande motivé",
-	'group_tools:settings:join_motivation:description' => "Quand un utilisateur veut rejoindre un groupe fermé, une demande de motivé est requise. Le propriétaire d'un groupe peut changer ce parametrage, s'il n'est pas défini sur 'non' ou 'requis'.",
+	'group_tools:settings:join_motivation:description' => "Quand un utilisateur veut rejoindre un groupe fermé, une demande de motivé est requise. Le propriétaire d'un groupe peut changer ce paramétrage, s'il n'est pas défini sur 'non' ou 'requis'.",
 
 	'group_tools:settings:mail' => "Autoriser les mails de groupes (permet aux administrateurs de groupes d'envoyer un message à tous les membres)" ,
 
 	'group_tools:settings:mail:members' => "Autoriser les admins de groupe à permettre les courriels de groupe pour leurs membres",
-	'group_tools:settings:mail:members:description' => "Ceci requiere que les courriels de groupe soit autorisé",
+	'group_tools:settings:mail:members:description' => "Ceci requière que les courriels de groupe soit activé",
 	
-	'group_tools:settings:listing:title' => "Parametres de liste de groupe",
-	'group_tools:settings:listing:description' => "Here you can configure which tabs will be visible on the group listing page, which tab will be the default landing page and what the default sorting will be per tab.",
+	'group_tools:settings:listing:title' => "Paramétres de liste de groupe",
+	'group_tools:settings:listing:description' => "Vous pouvez paramétrer quel onglet est visible sur la liste des groupes, quel onglet sera affiché par défaut et quel tri/onglet.",
 	'group_tools:settings:listing:enabled' => "Activé",
-	'group_tools:settings:listing:default_short' => "Default tab",
+	'group_tools:settings:listing:default_short' => "Onglet par défaut",
 	'group_tools:settings:listing:default' => "Affichage de la liste des groupes par défaut",
 	'group_tools:settings:listing:available' => "Liste des groupes disponibles",
 
-	'group_tools:settings:content:title' => "Parametres de contenu de groupe",
+	'group_tools:settings:content:title' => "Paramétres de contenu de groupe",
 	'group_tools:settings:default_access' => "Accès par défaut pour les publications des groupes",
 	'group_tools:settings:stale_timeout' => "Les groupes deviennent obsolètes si aucun contenu n'est créé dans un certain nombre de jours",
-	'group_tools:settings:stale_timeout:help' => "Si pas de nouveau cointenu est ajouté suivant le nombre de jour parametré, le groupe est montrée comme périmé. Le propriétaire du groupe recevra une notification le dernier jour. Le propriétaire ou un admin du groupe peut indiqué que le groupe est toujours actif. 0 ou vide pour ne pas activé cette fonctionnalité.",
+	'group_tools:settings:stale_timeout:help' => "Si pas de nouveau contenu est ajouté suivant le nombre de jour paramétré, le groupe est montrée comme périmé. Le propriétaire du groupe recevra une notification le dernier jour. Le propriétaire ou un admin du groupe peut indiqué que le groupe est toujours actif. 0 ou vide pour ne pas activé cette fonctionnalité.",
 	
 	'group_tools:settings:search_index' => "Autoriser les groupes privés à être indexés par les moteurs de recherche (non conseillé)",
 	'group_tools:settings:auto_notification' => "Activer les notifications du groupe pour tous les nouveaux inscrits (oui conseillé)",
@@ -95,22 +95,22 @@ return array(
 	'group_tools:settings:special_states:featured:description' => "Les administrateurs du site ont choisi de présenter les groupes suivants.",
 	'group_tools:settings:special_states:auto_join' => "Groupes obligatoires",
 	'group_tools:settings:special_states:auto_join:description' => "Les nouveaux membres rejoindront automatiquement les groupes suivants :",
-	'group_tools:settings:special_states:suggested' => "Suggestion",
+	'group_tools:settings:special_states:suggested' => "Suggéstion",
 	'group_tools:settings:special_states:suggested:description' => " Les groupes suivants sont proposés aux (nouveaux) utilisateurs. Il est possible d'auto-suggérer des groupes, si aucun groupe n'est automatiquement détecté ou trop peu, la liste sera annexée par ces groupes.",
 
 	'group_tools:settings:fix:title' => "Résoudre les problèmes d'accès au groupe",
-	'group_tools:settings:fix:missing' => "Il y a % d'utilisateurs qui sont membres d'un groupe, mais qui n'ont pas accès au contenu partagé de ce groupe.",
-	'group_tools:settings:fix:excess' => "Il y a % d'utilisateurs qui ont accès au contenu de ce groupe et qui n'en sont plus un membre.",
-	'group_tools:settings:fix:without' => "Il y a % de groupes qui n'ont pas la possibilité de partager du contenu avec leurs membres.",
-	'group_tools:settings:fix:all:description' => "Corrige tout les problemes ci-dessous en une fois.",
+	'group_tools:settings:fix:missing' => "Il y a %d d'utilisateurs qui sont membres d'un groupe, mais qui n'ont pas accès au contenu partagé de ce groupe.",
+	'group_tools:settings:fix:excess' => "Il y a %d d'utilisateurs qui ont accès au contenu de ce groupe et qui n'en sont plus un membre.",
+	'group_tools:settings:fix:without' => "Il y a %d de groupes qui n'ont pas la possibilité de partager du contenu avec leurs membres.",
+	'group_tools:settings:fix:all:description' => "Corrige tout les problèmes ci-dessous en une fois.",
 	'group_tools:settings:fix_it' => "Corriger cela",
-	'group_tools:settings:fix:all' => "Corriger tout les problemes.",
+	'group_tools:settings:fix:all' => "Corriger tout les problèmes.",
 	
 	'group_tools:settings:member_export' => "Autoriser les administrateurs du groupe à exporter les informations des membres",
 	'group_tools:settings:member_export:description' => "Cela inclut le nom, l'identifiant et l'adresse e-mail de l'utilisateur.",
 	
 	'group_tools:settings:admin_approve' => "Les administrateurs du site doivent autoriser les nouveaux groupes",
-	'group_tools:settings:admin_approve:description' => "N'inporte quel utilisateur peuvent créer un groupe, mais un administrateur du site doit valider ce nouveau groupe",
+	'group_tools:settings:admin_approve:description' => "N'importe quel utilisateur peuvent créer un groupe, mais un administrateur du site doit valider ce nouveau groupe",
 		
 	// simplified access
 	'group_tools:edit:access_simplified:open' => 'Groupe Ouvert',
@@ -123,7 +123,7 @@ return array(
 Lorsqu'un utilisateur crée un groupe il/elle doit choisir un des préréglages afin d'obtenir rapidement les outils appropriés. Une option vide est également offerte à l'utilisateur pour lui permettre de faire son/ses propres choix.",
 	'group_tools:admin:group_tool_presets:header' => "Les préréglages existants",
 	'group_tools:create_group:tool_presets:description' => "Vous pouvez sélectionner un outil de groupe dans la liste de pré sélection. Si vous le faites, vous obtiendrez un ensemble d'outils qui sont configurés en fonction de ce choix. Vous pouvez toujours choisir d'ajouter des outils supplémentaires à la pré sélection, ou supprimer ceux que vous ne voulez plus.",
-	'group_tools:create_group:tool_presets:active_header' => "Outils pour cette pré selection",
+	'group_tools:create_group:tool_presets:active_header' => "Outils pour cette pré sélection",
 	'group_tools:create_group:tool_presets:more_header' => "Outils supplémentaires",
 	'group_tools:create_group:tool_presets:select' => "Sélectionnez un type de groupe",
 	'group_tools:create_group:tool_presets:show_more' => "Plus d'outils",
@@ -205,7 +205,7 @@ Vous pouvez trouver le groupe ici :
 	'group_tools:special_states:description' => "Un groupe peut avoir plusieurs états spéciaux, voici un aperçu des états spéciaux et leur valeur actuelle.",
 	'group_tools:special_states:featured' => "Ce groupe est-il mis en avant ?",
 	'group_tools:special_states:auto_join' => "Les utilisateurs peuvent-ils se joindre automatiquement ce groupe ?",
-	'group_tools:special_states:auto_join:fix' => "Pour rendre tous les membres du site membres de ce groupe, %sCliquer ici%s.",
+	'group_tools:special_states:auto_join:fix' => "Pour rendre tous les membres du site membres de ce groupe, %s cliquer ici %s.",
 	'group_tools:special_states:suggested' => "Ce groupe est-il suggéré aux nouveaux membres ?",
 	
 	// group admins
@@ -213,7 +213,7 @@ Vous pouvez trouver le groupe ici :
 	'group_tools:multiple_admin:profile_actions:remove' => "Supprimer un admin ",
 	'group_tools:multiple_admin:profile_actions:add' => "Ajouter un admin",
 
-	'group_tools:multiple_admin:group_tool_option' => "Autoriser les administrateurs du groupe a créer d'autres admistrateurs de groupe",
+	'group_tools:multiple_admin:group_tool_option' => "Autoriser les administrateurs du groupe a créer d'autres administrateurs de groupe",
 
 	// cleanup options
 	'group_tools:cleanup:title' => "Gestion de la barre de menu du groupe",
@@ -240,7 +240,7 @@ Vous pouvez trouver le groupe ici :
 	'group_tools:default_access:description' => "Vous pouvez contrôler le niveau d'accès par défaut des nouveaux contenus du groupe.",
 
 	// group admin approve
-	'group_tools:group:admin_approve:notice' => "Les nouveaux groupes doivent être approuvé par un administrateur du site. Vous pouvez créer ou modifier le groupe, mais il ne sera pas visible par les autres tant qu'il 'aurat pas été validé.",
+	'group_tools:group:admin_approve:notice' => "Les nouveaux groupes doivent être approuvé par un administrateur du site. Vous pouvez créer ou modifier le groupe, mais il ne sera pas visible par les autres tant qu'il n'aura pas été validé.",
 	'group_tools:group:admin_approve:decline:confirm' => "Etes vous sur de vouloir refuser ce groupe ? Ceci supprimera le groupe.",
 	'group_tools:group:admin_approve:admin:description' => "Voici une liste de groupe qui doivent être approuvé par un administrateur du site avant d'être utilisé.
 
@@ -258,16 +258,16 @@ Votre groupe à été approuvé '%s par un administrateur du site. Vous pouvez m
 
 Pour visiter le groupe, cliquez ici:
 %s",
-	'group_tools:group:admin_approve:admin:subject' => "Un nouveau groupe '%s' qui require une approbation à était créé",
-	'group_tools:group:admin_approve:admin:summary' => "Un nouveau groupe '%s' qui require une approbation à était créé",
+	'group_tools:group:admin_approve:admin:subject' => "Un nouveau groupe '%s' qui requière une approbation à était créé",
+	'group_tools:group:admin_approve:admin:summary' => "Un nouveau groupe '%s' qui requière une approbation à était créé",
 	'group_tools:group:admin_approve:admin:message' => "Bonjour %s,
 
-%s à créé un groupe '%s' qui néccesite une approbation par un administrateur du site.
+%s à créé un groupe '%s' qui nécessite une approbation par un administrateur du site.
 
 Pour voir le groupe, cliquez ici:
 %s
 
-Pour voir tout les groupe qui néccesite une action de votre part, cliquez ici:
+Pour voir tout les groupe qui nécessite une action de votre part, cliquez ici:
 %s",
 	
 	'group_tools:group:admin_approve:decline:subject' => "Votre groupe '%s' à été refusé",
@@ -283,12 +283,12 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	'group_tools:notifications:enable' => "Activer les notifications pour tout le monde",
 	'group_tools:notifications:disable' => "Désactiver les notifications pour tout le monde",
 
-	'group_tools:notifications:toggle:email:enabled' => "Actuellement vous recevez les notifications de l'activité du groupe. Si ne voulez plus les recevoirs, changez vos parametres ici %s",
-	'group_tools:notifications:toggle:email:disabled' => "Actuellement vous ne recevez pas les notifications de l'activité du groupe. Si voulez les recevoirs, changez vos parametres ici %s",
+	'group_tools:notifications:toggle:email:enabled' => "Actuellement vous recevez les notifications de l'activité du groupe. Si ne voulez plus les recevoir, changez vos paramétres ici %s",
+	'group_tools:notifications:toggle:email:disabled' => "Actuellement vous ne recevez pas les notifications de l'activité du groupe. Si voulez les recevoir, changez vos paramétres ici %s",
 
-	'group_tools:notifications:toggle:site:enabled' => "Actuellement vous recevez les notifications de l'activité du groupe. Si ne voulez plus les recevoirs, changez vos parametres ici %s",
+	'group_tools:notifications:toggle:site:enabled' => "Actuellement vous recevez les notifications de l'activité du groupe. Si ne voulez plus les recevoir, changez vos paramétres ici %s",
 	'group_tools:notifications:toggle:site:enabled:link' => "désactivé les notifications",
-	'group_tools:notifications:toggle:site:disabled' => "Actuellement vous ne recevez pas les notifications de l'activité du groupe. Si voulez les recevoirs, changez vos parametres ici %s",
+	'group_tools:notifications:toggle:site:disabled' => "Actuellement vous ne recevez pas les notifications de l'activité du groupe. Si voulez les recevoir, changez vos paramétres ici %s",
 	'group_tools:notifications:toggle:site:disabled:link' => "activer les notifications",
 
 	// group mail
@@ -308,13 +308,13 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	'group_tools:mail:form:js:description' => "Merci de saisir un message",
 
 	// group invite
-	'group_tools:groups:invite:error' => "No invitation options are available",
+		'group_tools:groups:invite:error' => "No invitation options are available",
 	'group_tools:groups:invite:title' => "Inviter des membres dans ce groupe",
 	'group_tools:groups:invite' => "Inviter des membres",
 	'group_tools:groups:invite:user_already_member' => "L'utilisateur est déjà membre du groupe",
 
 	'group_tools:group:invite:friends:select_all' => "Sélectionner tous les contacts",
-	'group_tools:group:invite:friends:deselect_all' => "Déselectionner tous les contacts",
+	'group_tools:group:invite:friends:deselect_all' => "Désélectionner tous les contacts",
 
 	'group_tools:group:invite:users' => "Trouver des membres",
 	'group_tools:group:invite:users:description' => "Saisir le nom d'un membre et sélectionner-le dans la liste",
@@ -324,7 +324,7 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	'group_tools:group:invite:email:description' => "Saisir une adresse email valide et la sélectionner dans la liste",
 
 	'group_tools:group:invite:csv' => "En utilisant un ficher CSV",
-	'group_tools:group:invite:csv:description' => "Vous pouvez charger un fichier CSV contenant les membres à inviter.<br />Le format doit être en première ligne: displayname;e-mail address. Les autres lignes contiennent donc : nom prénom; adresse e-mail",
+	'group_tools:group:invite:csv:description' => "Vous pouvez charger un fichier CSV contenant les membres à inviter.<br />Le format doit être en première ligne: displayname; e-mail address. Les autres lignes contiennent donc : nom prénom; adresse e-mail",
 
 	'group_tools:group:invite:text' => "Message personnel (optionnel)",
 	'group_tools:group:invite:add:confirm' => "Etes-vous sûr de vouloir directement ajouter ces membres ?",
@@ -351,13 +351,13 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	// group listing
 	'group_tools:groups:sorting:open' => "Groupes ouverts",
 	'group_tools:groups:sorting:closed' => "Groupes fermés",
-	'group_tools:groups:sorting:ordered' => "Ordered",
-	'group_tools:groups:sorting:suggested' => "Groupes suggerés",
+	'group_tools:groups:sorting:ordered' => "Ordonnés",
+	'group_tools:groups:sorting:suggested' => "Groupes suggérés",
 		
 	// allow group members to invite
 	'group_tools:invite_members:title' => "Les membres du groupe peuvent inviter",
 	'group_tools:invite_members:description' => "Permettre aux membres de ce groupe d'inviter de nouveaux membres",
-	'group_tools:invite_members:disclaimer' => "Please note that for closed groups allowing your users to invite new members means they don't require approval by the group owner/admin(s).",
+		'group_tools:invite_members:disclaimer' => "Please note that for closed groups allowing your users to invite new members means they don't require approval by the group owner/admin(s).",
 
 	// group tool option descriptions
 	'activity:group_tool_option:description' => "Afficher un flux d'activité sur le contenu du groupe lié.",
@@ -393,13 +393,13 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 
 	// suggested groups
 	'group_tools:suggested_groups:info' => "Les groupes suivants pourraient être intéressant pour vous. Cliquez sur les boutons pour se joindre à eux immédiatement ou cliquez sur le titre pour afficher plus d'informations sur le groupe à rejoindre.",
-	'group_tools:suggested_groups:none' => "Nous ne pouvons vous suggerer des groupes. Cela arrive quand nous manquons d'informations sur vous ou que vous êtes déjà membres des groupes que vous pourriez rejoindre. Utilisez le champs recherche pour trouver d'autre groupes.",
+	'group_tools:suggested_groups:none' => "Nous ne pouvons vous suggérer des groupes. Cela arrive quand nous manquons d'informations sur vous ou que vous êtes déjà membres des groupes que vous pourriez rejoindre. Utilisez le champs recherche pour trouver d'autre groupes.",
 		
 	// group toggle auto join
-	'group_tools:action:toggle_special_state:error:auto_join' => "Une erreur est survenu durant la sauvegarde du parametrage des inscriptions automatique",
+	'group_tools:action:toggle_special_state:error:auto_join' => "Une erreur est survenu durant la sauvegarde du paramétrage des inscriptions automatique",
 	'group_tools:action:toggle_special_state:error:suggested' => "Une erreur est survenue lors de l'enregistrement des nouveaux réglages suggérés",
 	'group_tools:action:toggle_special_state:error:state' => "Etat invalide",
-	'group_tools:action:toggle_special_state:auto_join' => "Le parametrage des nouvelles inscriptions automatique ont été enregistré avec succès",
+	'group_tools:action:toggle_special_state:auto_join' => "Le paramétrage des nouvelles inscriptions automatique ont été enregistré avec succès",
 	'group_tools:action:toggle_special_state:suggested' => "Les nouveaux réglages suggérés ont été sauvegardés avec succès",
 	
 	// group fix auto_join
@@ -416,12 +416,12 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	// fix group problems
 	'group_tools:action:fix_acl:error:input' => "Option invalide que vous ne pouvez corriger: %s",
 	'group_tools:action:fix_acl:error:missing:nothing' => "Pas d'utilisateur manquant dans le groupe ACLs",
-	'group_tools:action:fix_acl:error:excess:nothing' => "No excess users found in the groups ACLs", // @FIXME searcdh meanings
+		'group_tools:action:fix_acl:error:excess:nothing' => "No excess users found in the groups ACLs", // @FIXME searcdh meanings
 	'group_tools:action:fix_acl:error:without:nothing' => "Pas de groupe trouvé avec un ACL",
 
-	'group_tools:action:fix_acl:success:missing' => "Successfully added %d users to group ACLs", // @FIXME searcdh meanings
-	'group_tools:action:fix_acl:success:excess' => "Successfully removed %d users from group ACLs", // @FIXME searcdh meanings
-	'group_tools:action:fix_acl:success:without' => "Successfully created %d group ACLs", // @FIXME searcdh meanings
+		'group_tools:action:fix_acl:success:missing' => "Successfully added %d users to group ACLs", // @FIXME searcdh meanings
+		'group_tools:action:fix_acl:success:excess' => "Successfully removed %d users from group ACLs", // @FIXME searcdh meanings
+		'group_tools:action:fix_acl:success:without' => "Successfully created %d group ACLs", // @FIXME searcdh meanings
 
 	// Widgets
 	// Group River Widget
@@ -452,7 +452,7 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	'widgets:index_groups:featured' => "Afficher les groupes A la Une",
 	'widgets:index_groups:sorting' => "Comment faire pour trier les groupes",
 
-	'widgets:index_groups:filter:field' => "Filtrer les groupe en utilisant les champs de groupe",
+	'widgets:index_groups:filter:field' => "Filtrer les groupes en utilisant les champs de groupe",
 	'widgets:index_groups:filter:value' => "avec la valeur",
 	'widgets:index_groups:filter:no_filter' => "Pas de filtre",
 
@@ -476,23 +476,23 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	'group_tools:welcome_message:title' => "Message de bienvenue dans le groupe",
 	'group_tools:welcome_message:description' => "Vous pouvez configurer un message de bienvenue pour les nouveaux utilisateurs qui se joignent à ce groupe. Si vous ne voulez pas envoyer un message de bienvenue laisser ce champ vide.",
 	'group_tools:welcome_message:explain' => "Afin de personnaliser le message vous pouvez utiliser les variables suivantes :
-[name]: le nom du nouvel utilisateur (eg. %s)
-[group_name]: le nom du groupe (eg. %s)
-[group_url]: l'url du groupe (eg. %s)",
+[name]: le nom du nouvel utilisateur (ex. %s)
+[group_name]: le nom du groupe (ex. %s)
+[group_url]: l'url du groupe (ex. %s)",
 	
 	'group_tools:action:welcome_message:success' => "Le message de bienvenue a été sauvegardé",
 	
 	'group_tools:welcome_message:subject' => "Bienvenue à %s",
 	
 	// email invitations
-	'group_tools:action:revoke_email_invitation:error' => "Une erreur est survenue lors de la révoquation de l'invitation, s'il vous plaît essayez à nouveau",
-	'group_tools:action:revoke_email_invitation:success' => "L'invitation a été revoquée",
+	'group_tools:action:revoke_email_invitation:error' => "Une erreur est survenue lors de la révocation de l'invitation, s'il vous plaît essayez à nouveau",
+	'group_tools:action:revoke_email_invitation:success' => "L'invitation a été révoquée",
 	
 	// domain based groups
 	'group_tools:join:domain_based:tooltip' => "En raison d'un domaine e-mail correspondant, vous pouvez rejoindre ce groupe.",
 	
 	'group_tools:domain_based:title' => "Configurer les domaines de messagerie",
-	'group_tools:domain_based:description' => "Lorsque vous configurez un (ou plusieurs) des domaines de messagerie, les utilisateurs avec ce domaine e-mail pourront automatiquement rejoindre votre groupe lors de l'inscription. Aussi, si vous avez un utilisateur de groupe fermé avec un domaine e-mail correspondant il pourra s'y joindre sans demander d'adhésion. Vous pouvez configurer des domaines multipe en utilisant une virgule. Ne pas inclure le signe @",
+	'group_tools:domain_based:description' => "Lorsque vous configurez un (ou plusieurs) des domaines de messagerie, les utilisateurs avec ce domaine e-mail pourront automatiquement rejoindre votre groupe lors de l'inscription. Aussi, si vous avez un utilisateur de groupe fermé avec un domaine e-mail correspondant il pourra s'y joindre sans demander d'adhésion. Vous pouvez configurer des domaines multiple en utilisant une virgule. Ne pas inclure le signe @",
 	
 	'group_tools:action:domain_based:success' => "Les nouveaux domaines de messagerie ont été sauvés",
 	
@@ -533,7 +533,7 @@ votre groupe '%s' à été refusé et supprimer par un administrateur du site.",
 	
 	// csv exporter
 	'group_tools:csv_exporter:group_admin:name' => "Noms des admins du groupe",
-	'group_tools:csv_exporter:group_admin:email' => "Adresse couriels des admins du groupe",
+	'group_tools:csv_exporter:group_admin:email' => "Adresse courriels des admins du groupe",
 	'group_tools:csv_exporter:group_admin:url' => "URL des admins du groupe",
 	
 	'group_tools:csv_exporter:user:group_admin:name' => "Nom des groupes administrés",
@@ -573,12 +573,12 @@ Cliquez ci-dessous pour voir les demandes d'adhésions des groupes:
 	'group_tools:join_motivation:listing' => "Raison pour rejoindre:",
 	
 	// stale groups
-	'group_tools:stale_info:description' => "Ce groupe a été inactif depuis un moment. Le contenu n'est peut être plus pertinant.",
-	'group_tools:stale_info:link' => "Ce groupe est toujours pertinant",
+	'group_tools:stale_info:description' => "Ce groupe a été inactif depuis un moment. Le contenu n'est peut être plus pertinent.",
+	'group_tools:stale_info:link' => "Ce groupe est toujours pertinent",
 	
 	'group_tools:csv_exporter:stale_info:is_stale' => "Groupe déprécié",
-	'group_tools:csv_exporter:stale_info:timestamp' => "Durée pertinance",
-	'group_tools:csv_exporter:stale_info:timestamp:readable' => "Durée pertinance (lisible)",
+	'group_tools:csv_exporter:stale_info:timestamp' => "Durée pertinence",
+	'group_tools:csv_exporter:stale_info:timestamp:readable' => "Durée pertinence (lisible)",
 	
 	'groups_tools:state_info:notification:subject' => "Votre groupe '%s' est inactif depuis un moment",
 	'groups_tools:state_info:notification:summary' => "Votre groupe '%s' est inactif depuis un moment",
